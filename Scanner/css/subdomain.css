@@ -1,0 +1,19 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#container{
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	background: url("../img/homebg.png");
+}
+#results{
+	width: 1050px;
+	position: absolute;
+	left: 200px;
+	top: 70px;
+	z-index: 100;
+	padding: 10px;
+	border: #ccc 2px solid;
+}

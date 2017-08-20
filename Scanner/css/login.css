@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html,body{
+}
+@font-face{
+	font-family: font1;
+	src:url("../img/font1.woff");
+}
+#container{
+	width: 100vw;
+	height: 100vh;
+	background: url("../img/homebg.png");
+	margin: 0 auto;
+	overflow: scroll;
+}
+img{
+	width: 300px;
+	height: 70px;
+	display: block;
+}
+#selection{
+	width: 300px;
+	height: 25px;
+	margin-top: 20px;
+	margin-left:auto;
+	margin-right: auto;
+	padding: 20px;
+	border:#929292 solid 3px;
+	border-radius: 25px;
+}
+#selection a{
+	width: 150px;
+	height: 40px;
+	background: red;
+	border-radius: 15px;
+	color: white;
+	padding: 10px;
+	margin-top: 40px;
+	text-decoration: none;
+	font-family: font1 ;
+}
+#selection a:hover{
+	background: green;
+	cursor: pointer;
+}
+#login{
+	margin-left: 50px;
+}
+#register{
+	margin-left: 10px;
+}
+#form{
+	height: 200px;
+	width: 350px;
+	padding: 30px;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right: auto;
+	border:#929292 solid 3px;
+	border-radius: 25px;
+}
+
+#loginform input[type="text"],input[type="password"]{
+	width: 300px;
+	height: 30px;
+	text-align: center;
+	font-family: font1;
+	margin-top:20px;
+	margin-left:20px;
+	margin-right: auto;
+	border-radius: 15px;
+	border: #ABA7A7 solid 3px;
+}
+#loginform input[type="submit"]{
+	width: 200px;
+	height: 35px;
+	text-align: center;
+	font-family: font1;
+	margin-top:20px;
+	margin-left: 70px;
+	border-radius: 15px;
+	background: #000;
+	color: #fff;
+	border: #000 solid 3px;
+}
+.button:hover{
+	cursor:pointer;
+	background: green;
+	box-shadow:5px 5px 15px 5px grey;
+	-webkit-box-shadow:5px 5px 15px 5px grey;
+	-moz-box-shadow:5px 5px 15px 5px grey;
+}
+#loginform input[type="submit"]:hover{
+	background: #fff;
+	color: #000;
+	cursor: pointer;
+}
+#regform{
+	height: 400px;
+	width: 350px;
+	padding: 30px;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right: auto;
+	border:#929292 solid 3px;
+	border-radius: 25px;
+}
+
+#registerform input[type="text"],input[type="password"]{
+	width: 300px;
+	height: 30px;
+	text-align: center;
+	font-family: font1;
+	margin-top:20px;
+	margin-left: 20px;
+	border-radius: 15px;
+	border: #ABA7A7 solid 3px;
+}
+#registerform input[type="submit"]{
+	width: 200px;
+	height: 35px;
+	text-align: center;
+	font-family: font1;
+	margin-top:20px;
+	margin-left: 70px;
+	border-radius: 15px;
+	background: #000;
+	color: #fff;
+	border: #000 solid 3px;
+}
+#registerform input[type="submit"]:hover{
+	background: #fff;
+	color: #000;
+	cursor: pointer;
+}
+.error{
+	width: 300px;
+	height: 30px;
+	margin:100px auto;
+	text-align: center;
+	color: red;
+	font-family: font1;
+}
+.message{
+	margin: 100px auto;
+	text-align: center;
+	font-family: font1;
+}
